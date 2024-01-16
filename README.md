@@ -26,7 +26,7 @@ Feel free to reach out for any inquiries or feedback:
 ## Screenshots and Images
 
 ### Landing Page Overview
-![Quran Tab Landing Page](./images/quran-tab-landing-page.png)
+![Quran Tab Landing Page](images/website.jpeg)
 
 ### Features Section
 ![Features](./images/features-section.png)
