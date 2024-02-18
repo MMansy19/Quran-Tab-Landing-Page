@@ -172,19 +172,32 @@ a {
 
   :not(.section--one-column) & {
     & > div:nth-of-type(1) {
-      transform: translateX(-5rem);
-      transition: calc(var(--timing-animation) * 4);
+      @media (min-width: 768px) {
+        transform: translateX(-5rem);
+        transition: calc(var(--timing-animation) * 4);
+      }
+      @media (max-width: 768px) {
+        transform: translateX(-1rem);
+        transition: calc(var(--timing-animation) * 4);
+      }
     }
 
     & > div:nth-of-type(2) {
-      transform: translateX(5rem);
-      transition: calc(var(--timing-animation) * 4);
+      @media (min-width: 768px) {
+        transform: translateX(5rem);
+        transition: calc(var(--timing-animation) * 4);
+      }
+      @media (max-width: 768px) {
+        transform: translateX(1rem);
+        transition: calc(var(--timing-animation) * 4);
+      }
     }
   }
 
   &.in-view {
     opacity: 1;
     transform: translateY(0);
+    transform: translateX(0);
     transition: 2s;
 
     :not(.section--one-column) & {
@@ -274,7 +287,13 @@ a {
     border-radius: calc(var(--default-radius) * 2);
   }
 }
-
+@media (max-width: 768px) {
+  #download {
+    opacity: 1;
+    transform: translateX(0);
+    transform: translateY(0);
+  }
+}
 .cards {
   display: flex;
   gap: var(--default-padding);
