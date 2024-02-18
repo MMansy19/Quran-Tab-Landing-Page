@@ -167,6 +167,8 @@ a {
   align-items: center;
   gap: calc(var(--default-padding) * 5);
   opacity: 0;
+  transform: translateY(1);
+  transition: all var(--timing-animation) ease-in-out;
 
   :not(.section--one-column) & {
     & > div:nth-of-type(1) {
