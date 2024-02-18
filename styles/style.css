@@ -167,10 +167,12 @@ a {
   transition: all var(--timing-animation) ease-in-out;
 }
 :not(.section--one-column) .section > div:nth-of-type(1) {
-  transform: translateX(-1rem);
+  transform: translateX(-5rem);
+  transition: calc(var(--timing-animation) * 4);
 }
 :not(.section--one-column) .section > div:nth-of-type(2) {
-  transform: translateX(1rem);
+  transform: translateX(5rem);
+  transition: calc(var(--timing-animation) * 4);
 }
 .section.in-view {
   opacity: 1;
