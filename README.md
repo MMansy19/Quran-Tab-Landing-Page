@@ -1,6 +1,8 @@
 # Quran Tab Landing Page
 
-## [🌟Live Website🌟](https://quran-tab-landing-page.netlify.app)
+## [🌟Live Link🌟](https://quran-tab-landing-page.netlify.app)
+
+![Quran Tab Landing Page](images/quran-book.jpg)
 
 ## Description
 Quran Tab is a Chrome extension that replaces your new tab with a random ayah from the Quran. It aims to keep users inspired by presenting a verse from the Quran every time they open a new tab. This landing page provides information about the extension, its features, and how to download it.
@@ -13,22 +15,22 @@ This project involved the application of various skills, including:
 - **Animation:** Implemented subtle animations for a more engaging user interface.
 - **Responsive Design:** Ensured a seamless user experience across various devices and screen sizes.
 
-## Live Website
-Check out the live Quran Tab landing page: [Quran Tab](https://quran-tab-landing-page.netlify.app)
 
 ## Landing Page Overview
-![Quran Tab Landing Page](images/page.jpeg)
-
-## Contact Information
-Feel free to reach out for any inquiries or feedback:
-- **Author:** Mahmoud Mansy
-- **Email:** [mahmoud2abdalfattah@gmail.com](mailto:mahmoud2abdalfattah@gmail.com)
+![Quran Tab Landing Page](images/screen-1.png)
+![Quran Tab Landing Page](images/screen-2.png)
+![Quran Tab Landing Page](images/screen-3.png)
 
 ## How to Use
 1. Clone the repository: `git clone https://github.com/MMansy19/quran-tab-landing-page.git`
 2. Open the `index.html` file in a web browser to view the landing page.
 
-
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+- [Author](https://github.com/MMansy19)
+- [Website](https://mahmoud-mansy-portfolio.netlify.app/)
+- [Email](mailto:mahmoud2abdalfattah@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/mahmoud-mansy-a189a5232)
