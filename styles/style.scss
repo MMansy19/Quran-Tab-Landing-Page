@@ -8,7 +8,7 @@
   --default-radius: 0.4rem;
   --desktop-width: 900px;
   --tablet-width: 600px;
-  --timing-animation: 0.2s;
+  --timing-animation: 0.8s;
 }
 
 /* CSS Reset */
@@ -167,7 +167,7 @@ a {
   align-items: center;
   gap: calc(var(--default-padding) * 5);
   opacity: 0;
-  transform: translateY(1);
+  transform: translateY(4);
   transition: all var(--timing-animation) ease-in-out;
 
   :not(.section--one-column) & {
